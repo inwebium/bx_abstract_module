@@ -1,0 +1,19 @@
+{
+    "catalog_test": {
+        "MANUFACTURER": {
+            "XML_ID": "manufacturer",
+            "NAME": "Производитель",
+            "ACTIVE": "Y",
+            "IS_REQUIRED": "N",
+            "SORT": 10,
+            "PROPERTY_TYPE": "S",
+            "MULTIPLE": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "USER_TYPE": "directory",
+            "USER_TYPE_SETTINGS": {
+                "TABLE_NAME": "manufacturer"
+            }
+        }
+    }
+}

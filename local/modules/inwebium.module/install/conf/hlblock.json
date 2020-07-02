@@ -1,0 +1,45 @@
+{
+    "manufacturer": {
+        "NAME": "Manufacturer",
+        "FIELDS": {
+            "UF_NAME": {
+                "USER_TYPE_ID": "string",
+                "SORT": 10,
+                "MULTIPLE": "N",
+                "MANDATORY": "Y",
+                "SHOW_FILTER": "N",
+                "SHOW_IN_LIST": "Y",
+                "EDIT_IN_LIST": "Y",
+                "IS_SEARCHABLE": "N",
+                "XML_ID": "",
+                "EDIT_FORM_LABEL": {
+                    "ru": "Название",
+                    "en": "Name"
+                },
+                "LIST_COLUMN_LABEL": {
+                    "ru": "Название",
+                    "en": "Name"      
+                }
+            },
+            "UF_XML_ID": {
+                "USER_TYPE_ID": "string",
+                "SORT": 20,
+                "MULTIPLE": "N",
+                "MANDATORY": "Y",
+                "SHOW_FILTER": "N",
+                "SHOW_IN_LIST": "Y",
+                "EDIT_IN_LIST": "Y",
+                "IS_SEARCHABLE": "N",
+                "XML_ID": "",
+                "EDIT_FORM_LABEL": {
+                    "ru": "Внешний код",
+                    "en": "XML ID"
+                },
+                "LIST_COLUMN_LABEL": {
+                    "ru": "Внешний код",
+                    "en": "XML ID"      
+                }
+            }
+        }
+    }
+}

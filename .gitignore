@@ -1,0 +1,6 @@
+/**
+
+!/.gitignore
+!/local/
+!/local/**
+!/README.md

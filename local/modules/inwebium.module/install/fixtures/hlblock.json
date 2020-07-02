@@ -1,0 +1,16 @@
+{
+    "manufacturer": [
+        {
+            "UF_NAME": "Manufacturer A",
+            "UF_XML_ID": "manufacturer_a"
+        },
+        {
+            "UF_NAME": "Manufacturer B",
+            "UF_XML_ID": "manufacturer_b"
+        },
+        {
+            "UF_NAME": "Manufacturer C",
+            "UF_XML_ID": "manufacturer_c"
+        }
+    ]
+}

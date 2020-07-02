@@ -1,0 +1,52 @@
+{
+    "catalog_test": {
+        "LID": "s1",
+        "NAME": "Каталог",
+        "ACTIVE": "Y",
+        "LIST_PAGE_URL": "",
+        "SECTION_PAGE_URL": "",
+        "DETAIL_PAGE_URL": "",
+        "PICTURE": "",
+        "DESCRIPTION": "",
+        "DESCRIPTION_TYPE": "text",
+        "INDEX_ELEMENT": "Y",
+        "INDEX_SECTION": "Y",
+        "LIST_MODE": "C",
+        "RIGHTS_MODE": "S",
+        "WORKFLOW": "N",
+        "BIZPROC": "N",
+        "VERSION": 2,
+        "SORT": 10,
+        "XML_ID": "inwebium_catalog",
+        "FIELDS": {
+            "CODE": {
+                "IS_REQUIRED": "Y",
+                "DEFAULT_VALUE": {
+                    "UNIQUE": "Y",
+                    "TRANSLITERATION": "Y",
+                    "TRANS_SPACE": "_",
+                    "TRANS_OTHER": "_",
+                    "TRANS_EAT": "Y"
+                }
+            },
+            "IBLOCK_SECTION_ID": {
+                "IS_REQUIRED": "Y"
+            }
+        },
+        "ELEMENT_NAME": "Товар",
+        "ELEMENTS_NAME": "Товары",
+        "ELEMENT_ADD": "Добавить товар",
+        "ELEMENT_EDIT": "Изменить товар",
+        "ELEMENT_DELETE": "Удалить товар",
+        "SECTION_NAME": "Раздел",
+        "SECTIONS_NAME": "Разделы",
+        "SECTION_ADD": "Добавить раздел",
+        "SECTION_EDIT": "Изменить раздел",
+        "SECTION_DELETE": "Удалить раздел",
+        "PERMISSIONS": {
+            "1": "X",
+            "2": "R"
+        },
+        "IS_CATALOG": true
+    }
+}

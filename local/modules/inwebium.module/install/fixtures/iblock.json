@@ -1,0 +1,114 @@
+{
+    "catalog_test": {
+        "SECTIONS": [
+            {
+                "NAME": "Section 0",
+                "XML_ID": "s_0"
+            },
+            {
+                "NAME": "Section 1",
+                "XML_ID": "s_1",
+                "SECTIONS": [
+                    {
+                        "NAME": "Section 1-0",
+                        "XML_ID": "s_1_0"
+                    },
+                    {
+                        "NAME": "Section 1-1",
+                        "XML_ID": "s_1_1",
+                        "SECTIONS": [
+                            {
+                                "NAME": "Section 1-1-0",
+                                "XML_ID": "s_1_1_0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "NAME": "Section 2",
+                "XML_ID": "s_2"
+            }
+        ],
+        "ELEMENTS": [
+            {
+                "NAME": "Product 0",
+                "CODE": "product_0",
+                "STORE_AMOUNT": 0,
+                "AVAILABLE": "N",
+                "PRICE": 1000,
+                "PROPERTY_VALUES": {
+                    "MANUFACTURER": {"VALUE": "manufacturer_a"}
+                },
+                "SECTIONS": [
+                    "s_0"
+                ]
+            },
+            {
+                "NAME": "Product 1",
+                "CODE": "product_1",
+                "STORE_AMOUNT": 1,
+                "AVAILABLE": "Y",
+                "PRICE": 1100,
+                "PROPERTY_VALUES": {
+                    "MANUFACTURER": {"VALUE": "manufacturer_b"}
+                },
+                "SECTIONS": [
+                    "s_1"
+                ]
+            },
+            {
+                "NAME": "Product 2",
+                "CODE": "product_2",
+                "STORE_AMOUNT": 2,
+                "AVAILABLE": "Y",
+                "PRICE": 1200,
+                "PROPERTY_VALUES": {
+                    "MANUFACTURER": {"VALUE": "manufacturer_c"}
+                },
+                "SECTIONS": [
+                    "s_2"
+                ]
+            },
+            {
+                "NAME": "Product 3",
+                "CODE": "product_3",
+                "STORE_AMOUNT": 3,
+                "AVAILABLE": "Y",
+                "PRICE": 1300,
+                "PROPERTY_VALUES": {
+                    "MANUFACTURER": {"VALUE": "manufacturer_a"}
+                },
+                "SECTIONS": [
+                    "s_0", "s_1", "s_2"
+                ]
+            },
+            {
+                "NAME": "Product 4",
+                "CODE": "product_4",
+                "STORE_AMOUNT": 4,
+                "AVAILABLE": "Y",
+                "PRICE": 1400,
+                "PROPERTY_VALUES": {
+                    "MANUFACTURER": {"VALUE": "manufacturer_b"}
+                },
+                "SECTIONS": [
+                    "s_1_0", "s_1_1"
+                ]
+            },
+            {
+                "NAME": "Product 5",
+                "CODE": "product_5",
+                "STORE_AMOUNT": 5,
+                "AVAILABLE": "Y",
+                "PRICE": 1500,
+                "PROPERTY_VALUES": {
+                    "MANUFACTURER": {"VALUE": "manufacturer_c"}
+                },
+                "SECTIONS": [
+                    "s_0", "s_1_1_0"
+                ]
+            }
+        ]
+    }
+}

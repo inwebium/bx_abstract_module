@@ -1,0 +1,7 @@
+{
+    "userId": 1,
+    "moduleId": "inwebium.module",
+    "lang": "ru",
+    "action": "install",
+    "events": true
+}
